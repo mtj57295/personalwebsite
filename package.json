@@ -2,7 +2,7 @@
   "name": "personalwebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mtj57295.github.io/personalwebsite/",
+  "homepage": "https://mtj57295.github.io/personalwebsite",
   "dependencies": {
     "jquery": "^3.4.1",
     "react": "^16.8.6",
