@@ -15,7 +15,7 @@ import Contact from '../components/contact/Contact';
 
 import { projects, skills, experiences, educations } from '../files/websitesinfo';
 
-import '../App.css';
+import './App.css';
 
 class App extends Component {
   constructor() {
