@@ -21,7 +21,7 @@ const About = () => {
             <p className="measure lh-copy">
               Currently I am searching for a position as a software developer or
               software engineer. I pefer to do back-end software development but
-              do not limit myself to front-end software development and other types
+              do not limit myself from front-end software development and other types
               of development. I'm interested in Python Development, Web Development,
               Mobile development, MERN stack development, and Artificial Intelligence.
             </p>
