@@ -12,16 +12,18 @@ const About = () => {
             About
             </h1>
             <p className="measure lh-copy">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-              vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-              no sea takimata sanctus est Lorem ipsum dolor sit amet.
+              I am passionate about building excellet software that improves the
+              lives of others. I love coding and seeing projects come together.
+              I am a self motivated programmer that enjoys learning new languages
+              and technologies to andvance my development skills. I'm always looking
+              to improve and evolve myself.
             </p>
             <p className="measure lh-copy">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-              vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-              no sea takimata sanctus est Lorem ipsum dolor sit amet.
+              Currently I am searching for a position as a software developer or
+              software engineer. I pefer to do back-end software development but
+              do not limit myself to front-end software development and other types
+              of development. I'm interested in Python Development, Web Development,
+              Mobile development, MERN stack development, and Artificial Intelligence.
             </p>
           </div>
           <img src={image1} alt='computer' className='about-images'/>

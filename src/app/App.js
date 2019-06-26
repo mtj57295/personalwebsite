@@ -32,7 +32,6 @@ class App extends Component {
   }
 
   unClickedProject = () => {
-    console.log('f');
     this.setState({modalEnabled: 'none'});
   }
 

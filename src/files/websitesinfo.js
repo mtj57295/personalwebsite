@@ -36,12 +36,16 @@ export const projects = [
 
   {
     projectName: "Bouncy Ball",
-    desc: ["jbsadfnads"],
+    desc: [
+      "Created a game using android development, the purpose was to tap and move the screen to go through the lines in the screen",
+      "Implemented the application using graphics and a runnable to constantly draw the images",
+      "Built a machine database to keep track of scores, used Room to provide an abstracted layer over SQLite"
+    ],
     images: [
       "bouncyballproject/bouncyball1.jpg",
       "bouncyballproject/bouncyball2.jpg",
       "bouncyballproject/bouncyball3.jpg"],
-    github: "url"
+    github: ""
   },
 
   {

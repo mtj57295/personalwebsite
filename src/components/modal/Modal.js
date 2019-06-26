@@ -28,11 +28,16 @@ class Modal extends React.Component {
     this.setState({imageCount: index})
   }
 
+  exit = () => {
+    this.setState({imageCount: 0});
+    this.props.unClickedProject();
+  }
+
   render() {
-    window.onclick = function(event) {
+    window.onclick = () => {
       let modal = document.getElementById('myModal');
       if (event.target == modal){
-        unClickedProject();
+        return(<div>{this.exit()}</div>);
       }
     }
     const {project, modalEnabled, unClickedProject} = this.props;
@@ -69,7 +74,7 @@ class Modal extends React.Component {
     return(
       <div id="myModal" class="modal" style={{ display: `${modalEnabled}`}} >
         <div class="modal-content">
-          <span onClick={unClickedProject} class="close">&times;</span>
+          <span onClick={this.exit} class="close">&times;</span>
           <img className= 'center-image' src={imageUrl} />
           {displayArrows()}
           <div className='flex flex-column'>
