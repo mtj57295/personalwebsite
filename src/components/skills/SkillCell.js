@@ -24,7 +24,7 @@ const SkillCell = ({skillName, image, skillLevel, url}) => {
        </div>
      );
   }
-
+  /*
   const checkSkillLevel = () => {
     let temp = skillLevel.substring(0, skillLevel.length - 1);
     const value = Number(temp);
@@ -36,6 +36,7 @@ const SkillCell = ({skillName, image, skillLevel, url}) => {
       return level('#4CAF50');
     }
   }
+  */
 
   return(
     <article className="grow center shadow-3 mb5">
@@ -49,7 +50,6 @@ const SkillCell = ({skillName, image, skillLevel, url}) => {
           </div>
         </div>
         <div className='container'>
-        {checkSkillLevel()}
         </div>
       </div>
     </article>
