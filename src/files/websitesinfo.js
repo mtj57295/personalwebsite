@@ -1,5 +1,19 @@
 
 export const projects = [
+   {
+     projectName: "Stock Prediction and Analysis",
+     desc: [
+         "Implemented a support vector machine in python to analyze the companies’ stocks using machine learning regression and to predict future stocks.",
+         "Furthermore, used twitter API to capture postings about the company and use natural language processing to determine semantics in the post",
+         "Built a backend API interface in Flask and python and a frontend website using React, Redux, and JavaScript"
+     ],
+     images: [
+       "stocks/stocks1.jpg",
+       "stocks/stocks2.jpg"
+     ],
+     github: "https://github.com/mtj57295/stockprediction"
+   },
+
   {
     projectName: "Twitter Search Tool",
     desc: [
@@ -19,6 +33,21 @@ export const projects = [
   },
 
   {
+    projectName: "Music Finder",
+    desc: [
+        "Designed and built a web application that allows users to search music, register an account, and add their favorite music to their profile page.",
+        "Languages/technologies: React, Redux, Node.js, Express, MongoDB, JavaScript, HTML5, CSS3, Bootstrap, MusixMatch API",
+    ],
+    images: [
+      "musicfinder/musicfinder1.jpg",
+      "musicfinder/musicfinder2.jpg",
+      "musicfinder/musicfinder3.jpg",
+      "musicfinder/musicfinder4.jpg",
+    ],
+    github: "https://github.com/mtj57295/musicapp"
+  },
+
+  {
     projectName: "Face Regcognition",
     desc: [
       "Built a web application that allows users to upload a URL of an image and it will detect a face if present using an API, it will then draw a square around the detected face",
@@ -34,6 +63,19 @@ export const projects = [
     github: "https://github.com/mtj57295/Face-Recognition-Web-Application"
   },
 
+  {
+    projectName: "Snakes and Ladders",
+    desc: [
+      "Built a python program that uses Breadth First Search to find the shortest path in a Snakes and Ladders game",
+      "The program randomly creates a Snakes and Ladders board based on user specifications",
+      "Lastly, the program will draw a board with the snakes and ladders and a correct path to the goal vertex"
+    ],
+    images: [
+      "snakegame/snakegame1.jpg",
+      "snakegame/snakegame2.jpg",
+    ],
+    github: "https://github.com/mtj57295/snakegame"
+  },
   {
     projectName: "Bouncy Ball",
     desc: [
@@ -252,5 +294,13 @@ export const educations = [
     startDate: 'August 2010',
     endDate: 'May 2014',
     courses: ["Java"]
-  }
+   },
+   {
+     school: 'Social Network MERN Stack Web Application',
+     degree: 'Udemy Course',
+     startDate: 'Summer 2019',
+     endDate: 'Summer 2019',
+     type: 'pd',
+     courses: ['Node.js', 'Express.js', 'React', 'Redux', 'MongoDB']
+   }
 ]

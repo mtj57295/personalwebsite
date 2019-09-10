@@ -11,6 +11,7 @@ const Education = ({educations}) => {
         startDate={educations[i].startDate}
         endDate={educations[i].endDate}
         courses={educations[i].courses}
+        type={educations[i].type}
       />
     )
   })

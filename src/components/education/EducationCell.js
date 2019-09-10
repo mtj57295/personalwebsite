@@ -1,6 +1,6 @@
 import React from 'react';
 
-const EducationCell = ({school, degree, startDate, endDate, courses}) => {
+const EducationCell = ({school, degree, startDate, endDate, courses, type}) => {
 
   const displayCourses = courses.map((course, i) => {
     return(
@@ -23,7 +23,7 @@ const EducationCell = ({school, degree, startDate, endDate, courses}) => {
         {startDate} - {endDate}
       </h2>
       <h2 class="f5 f4-m f3-l fw2 black-80 mt0 lh-copy">
-        Relevant Courses:
+        { type ? (<div>Languages/Technologies:</div>) : (<div>Relevant Courses:</div>) }
         <div className='light-red w-40 center flex flex-wrap'>
           {displayCourses}
         </div>

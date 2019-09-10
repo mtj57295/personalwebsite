@@ -15,15 +15,15 @@ const About = () => {
               I am passionate about building excellet software that improves the
               lives of others. I love coding and seeing projects come together.
               I am a self motivated programmer that enjoys learning new languages
-              and technologies to andvance my development skills. I'm always looking
+              and technologies to advance my development skills. I'm always looking
               to improve and evolve myself.
             </p>
             <p className="measure lh-copy">
               Currently I am searching for a position as a software developer or
               software engineer. I pefer to do back-end software development but
               do not limit myself from front-end software development and other types
-              of development. I'm interested in Python Development, Web Development,
-              Mobile development, MERN stack development, and Artificial Intelligence.
+              of development. I'm interested in Software Engineering, Data Science,
+              Deep Learning, and Web Development!
             </p>
           </div>
           <img src={image1} alt='computer' className='about-images'/>
