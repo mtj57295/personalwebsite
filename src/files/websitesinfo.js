@@ -9,7 +9,10 @@ export const projects = [
      ],
      images: [
        "stocks/stocks1.jpg",
-       "stocks/stocks2.jpg"
+       "stocks/stocks2.jpg",
+       "stocks/stocks3.jpg",
+       "stocks/stocks4.jpg",
+       "stocks/stocks5.jpg"
      ],
      github: "https://github.com/mtj57295/stockprediction"
    },
